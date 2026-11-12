@@ -1,11 +1,207 @@
-/* MOERIS — أسعار مرصودة من صفحات بيع مصرية. لا ننسب العلامات التجارية دون توثيق. */
+/* MOERIS — منتجات محددة بروابط مباشرة إلى صفحات البيع المصرية. الأسعار مرصودة وقت الفحص وليست ضمانًا للتوفر. */
 window.MOERIS_PRODUCTS=[
-{id:"men-black-305",brand:"تصميم رجالي | بدون ماركة موثقة",name:"كلاسيك أسود — سوار معدني",category:"Men",tag:"اختيار يومي",egp:305,source:"Jumia Egypt",sourceUrl:"https://www.jumia.com.eg/ar/mlp-mens-watches/",priceNote:"305 جنيه في نتائج جوميا وقت الفحص",case:"سوار معدني حسب وصف القائمة",movement:"كوارتز حسب وصف القائمة",water:"غير مؤكد — لا تفترض مقاومة الماء",availability:"راجع البائع والتوفر قبل الشراء",description:"ساعة رجالي كلاسيكية بمينا سوداء وسوار معدني، معروضة ضمن نتائج جوميا بالسعر المرصود. لا توجد علامة تجارية موثقة في القائمة.",colors:[{name:"أسود",hex:"#242424",price:0}],images:["https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=1000&q=85"]},
-{id:"men-black-250",brand:"تصميم رجالي | بدون ماركة موثقة",name:"مينا سوداء — ستايل كلاسيك",category:"Men",tag:"سعر اقتصادي",egp:250,source:"Jumia Egypt",sourceUrl:"https://www.jumia.com.eg/ar/mlp-mens-watches/",priceNote:"250 جنيه في نتائج جوميا وقت الفحص",case:"معدن حسب وصف القائمة",movement:"كوارتز حسب وصف القائمة",water:"غير مؤكد",availability:"راجع البائع والتوفر قبل الشراء",description:"تصميم رجالي بسيط بمينا سوداء، ظهر بسعر 250 جنيه ضمن قائمة ساعات جوميا. تحققي من تفاصيل البائع قبل الطلب.",colors:[{name:"أسود",hex:"#252525",price:0}],images:["https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1000&q=85"]},
-{id:"men-black-230",brand:"تصميم رجالي | بدون ماركة موثقة",name:"كوارتز أسود — للاستخدام اليومي",category:"Men",tag:"عملي وبسيط",egp:230,source:"Jumia Egypt",sourceUrl:"https://www.jumia.com.eg/ar/mlp-men-wristwatch/",priceNote:"230 جنيه في نتائج جوميا وقت الفحص",case:"سوار معدني حسب وصف القائمة",movement:"كوارتز",water:"غير مؤكد",availability:"راجع البائع والتوفر قبل الشراء",description:"ساعة رجالي كوارتز بمينا سوداء، ظهرت بسعر 230 جنيه في نتائج جوميا. لا تعرض الصفحة علامة تجارية مؤكدة.",colors:[{name:"أسود",hex:"#282828",price:0}],images:["https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=85"]},
-{id:"men-silver-215",brand:"تصميم رجالي | بدون ماركة موثقة",name:"فضي كلاسيك — مينا واضحة",category:"Men",tag:"ستايل هادئ",egp:215,source:"Jumia Egypt",sourceUrl:"https://www.jumia.com.eg/ar/mlp-men-wristwatch/",priceNote:"215 جنيه في نتائج جوميا وقت الفحص",case:"معدن حسب وصف القائمة",movement:"كوارتز",water:"غير مؤكد",availability:"راجع البائع والتوفر قبل الشراء",description:"ساعة رجالي فضية بمينا واضحة، ظهرت بسعر 215 جنيه ضمن نتائج جوميا. راجع الخامة والتقييمات قبل الطلب.",colors:[{name:"فضي",hex:"#bfc3c5",price:0}],images:["https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=1000&q=85"]},
-{id:"women-pearl-349",brand:"تصميم حريمي | NAIDU",name:"دائرية بفصوص ومينا لولي",category:"Women",tag:"لمسة أنيقة",egp:349,source:"Fyonka",sourceUrl:"https://fyonka.net/product/%D8%B3%D8%A7%D8%B9%D8%A9-%D8%AD%D8%B1%D9%8A%D9%85%D9%8A-%D9%85%D8%B9%D8%AF%D9%86-%D8%AF%D8%A7%D8%A6%D8%B1%D9%8A%D8%A9-naidu-%D9%81%D8%B5%D9%88%D8%B5-%D9%84%D9%88%D9%84%D9%8A-%D8%A7%D8%A8%D9%8A%D8%B6/",priceNote:"349 جنيه في صفحة المنتج وقت الفحص",case:"معدن مطلي — راجعي تفاصيل الخامة",movement:"كوارتز",water:"تجنب الماء للحفاظ على الطلاء",availability:"راجع خيارات اللون والتوفر في صفحة المنتج",description:"ساعة حريمي دائرية من NAIDU بمينا لولي وفصوص، وتتوفر في صفحة البائع بأربعة اختيارات ألوان. السعر المرصود 349 جنيه.",colors:[{name:"ذهبي بمينا بيضاء",hex:"#c7a45d",price:0},{name:"ذهبي بمينا سوداء",hex:"#92733f",price:0},{name:"فضي بمينا بيضاء",hex:"#c8c8c8",price:0},{name:"فضي بمينا سوداء",hex:"#6e7072",price:0}],images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00580.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00579.jpg"]},
-{id:"women-chain-299",brand:"تصميم حريمي | بدون ماركة موثقة",name:"سوار جنزير بفصوص جانبية",category:"Women",tag:"أكثر من لون",egp:299,source:"Fyonka",sourceUrl:"https://fyonka.net/product/%D8%B3%D8%A7%D8%B9%D8%A9-%D8%AD%D8%B1%D9%8A%D9%85%D9%8A-%D9%85%D8%B9%D8%AF%D9%86-%D8%A7%D8%B3%D8%AA%D9%8A%D9%83-%D8%AC%D9%86%D8%B2%D9%8A%D8%B1-%D8%A8%D9%81%D8%B5%D9%88%D8%B5-%D8%AC%D8%A7%D9%86%D8%A8/",priceNote:"299 جنيه في صفحة المنتج وقت الفحص",case:"معدن مطلي حسب وصف البائع",movement:"كوارتز",water:"تجنب الماء والعطور المباشرة",availability:"تحققي من اللون المتاح قبل الطلب",description:"ساعة حريمي بسوار جنزير وفصوص جانبية، معروضة بثمانية اختيارات ألوان بسعر 299 جنيه في صفحة فيونكا.",colors:[{name:"ذهبي بمينا بيضاء",hex:"#c3a05b",price:0,images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00539.jpg"]},{name:"ذهبي بمينا ذهبية",hex:"#a98742",price:0,images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00535.jpg"]},{name:"ذهبي بمينا سوداء",hex:"#92733f",price:0,images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00540.jpg"]},{name:"فضي بمينا بيضاء",hex:"#c8c8c8",price:0,images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00536.jpg"]},{name:"فضي بمينا سوداء",hex:"#6e7072",price:0,images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00537.jpg"]},{name:"فضي بمينا كحلي",hex:"#566477",price:0,images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00538.jpg"]},{name:"فضي × ذهبي بمينا بيضاء",hex:"#b8a06e",price:0,images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00534.jpg"]},{name:"فضي × ذهبي بمينا سوداء",hex:"#9a8a68",price:0,images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00533.jpg"]}],images:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00539.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00535.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00540.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00536.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00537.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00538.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00534.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00533.jpg"],galleryImages:["https://fyonka.net/wp-content/uploads/2026/09/WTWM00539.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00535.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00540.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00536.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00537.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00538.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00534.jpg","https://fyonka.net/wp-content/uploads/2026/09/WTWM00533.jpg"]},
-{id:"women-rect-269",brand:"تصميم حريمي | بدون ماركة موثقة",name:"مستطيلة — سوار معدني",category:"Women",tag:"ستايل ناعم",egp:269,source:"Fyonka",sourceUrl:"https://fyonka.net/product/%D8%B3%D8%A7%D8%B9%D8%A9-%D8%AD%D8%B1%D9%8A%D9%85%D9%8A-%D9%85%D8%B9%D8%AF%D9%86-rolex-%D9%85%D8%B3%D8%AA%D8%B7%D9%8A%D9%84%D8%A9-%D8%A7%D8%B3%D8%AA%D9%8A%D9%83-%D8%A7%D8%B3%D9%87%D9%85/",priceNote:"269 جنيه في قائمة فيونكا وقت الفحص",case:"معدن حسب وصف البائع",movement:"كوارتز",water:"غير مؤكد",availability:"راجع البائع واللون المتاح",description:"ساعة حريمي مستطيلة بسوار معدني، ظهرت في قائمة فيونكا بسعر 269 جنيه. الاسم التجاري غير موثق، لذلك لا ننسبها لأي ماركة عالمية.",colors:[{name:"فضي",hex:"#c4c7c8",price:0}],images:["https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1000&q=85"]},
-{id:"women-silver-310",brand:"تصميم حريمي | بدون ماركة موثقة",name:"فضي بمينا سوداء وفصوص",category:"Women",tag:"ستايل لامع",egp:310,source:"Jumia Egypt",sourceUrl:"https://www.jumia.com.eg/ar/slp/%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AD%D8%B1%D9%8A%D9%85%D9%8A",priceNote:"310 جنيه في نتائج جوميا وقت الفحص",case:"معدن حسب وصف القائمة",movement:"كوارتز حسب وصف القائمة",water:"غير مؤكد",availability:"راجع البائع والتوفر قبل الشراء",description:"ساعة حريمي فضية بمينا سوداء وسوار مزين بفصوص، ظهرت بسعر 310 جنيه في نتائج جوميا.",colors:[{name:"فضي وأسود",hex:"#66696c",price:0}],images:["https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1000&q=85"]}
+  {
+    "id": "men-black-225",
+    "brand": "Generic · بدون ماركة موثقة",
+    "name": "أسود بالكامل — أرقام واضحة",
+    "category": "Men",
+    "tag": "رجالي · كوارتز",
+    "egp": 225,
+    "source": "Jumia Egypt",
+    "sourceUrl": "https://www.jumia.com.eg/ar/generic-mens-casual-quartz-watch-stainless-steel-black-dial-with-large-numbers-black-strap-luxury-mens-wrist-watch-134738231.html",
+    "priceNote": "225 جنيه وقت الفحص — صفحة البائع أظهرت قطعة واحدة",
+    "availability": "المخزون كان قطعة واحدة عند الفحص؛ تأكد من التوفر والسعر في صفحة البائع",
+    "case": "سوار معدني أسود حسب وصف البائع",
+    "movement": "كوارتز",
+    "water": "مقاومة الماء غير موضحة",
+    "description": "ساعة رجالي بمينا سوداء وأرقام كبيرة وسوار معدني أسود. اسم العلامة غير موثق في صفحة المنتج؛ السعر المعروض وقت الفحص 225 جنيه.",
+    "colors": [
+      {
+        "name": "أسود",
+        "hex": "#252525"
+      }
+    ],
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/13/2837431/1.jpg?4631=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/13/2837431/2.jpg?4631=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/13/2837431/3.jpg?4631=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/13/2837431/4.jpg?4631="
+    ],
+    "galleryImages": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/13/2837431/1.jpg?4631=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/13/2837431/2.jpg?4631=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/13/2837431/3.jpg?4631=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/13/2837431/4.jpg?4631="
+    ]
+  },
+  {
+    "id": "men-white-black-230",
+    "brand": "Generic · بدون ماركة موثقة",
+    "name": "مينا بيضاء — سوار أسود",
+    "category": "Men",
+    "tag": "رجالي · كلاسيك",
+    "egp": 230,
+    "source": "Jumia Egypt",
+    "sourceUrl": "https://www.jumia.com.eg/ar/generic-mens-classic-quartz-watch-white-dial-black-stainless-steel-band-elegant-analog-wristwatch-134726657.html",
+    "priceNote": "230 جنيه وقت الفحص — صفحة البائع أظهرت قطعة واحدة",
+    "availability": "المخزون كان قطعة واحدة عند الفحص؛ راجع صفحة البائع قبل الشراء",
+    "case": "سوار معدني أسود حسب وصف البائع",
+    "movement": "كوارتز بثلاثة عقارب",
+    "water": "مقاومة الماء غير موضحة",
+    "description": "ساعة رجالي بمينا بيضاء ومؤشرات سوداء وسوار معدني أسود. صفحة البائع لا تعرض علامة تجارية موثقة أو ضمانًا.",
+    "colors": [
+      {
+        "name": "أسود بمينا بيضاء",
+        "hex": "#292929"
+      }
+    ],
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/75/6627431/1.jpg?0213=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/75/6627431/2.jpg?0213=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/75/6627431/3.jpg?0213=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/75/6627431/4.jpg?0213="
+    ],
+    "galleryImages": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/75/6627431/1.jpg?0213=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/75/6627431/2.jpg?0213=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/75/6627431/3.jpg?0213=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/75/6627431/4.jpg?0213="
+    ]
+  },
+  {
+    "id": "women-gold-270",
+    "brand": "Generic · موديل Onlyou حسب صفحة البائع",
+    "name": "ذهبي بمينا بيضاء",
+    "category": "Women",
+    "tag": "نسائي · كلاسيك",
+    "egp": 270,
+    "source": "Jumia Egypt",
+    "sourceUrl": "https://www.jumia.com.eg/ar/generic-womens-gold-tone-watch-with-white-dial-and-stainless-steel-bracelet-135184063.html",
+    "priceNote": "270 جنيه وقت الفحص — صفحة البائع أظهرت قطعة واحدة",
+    "availability": "المخزون كان قطعة واحدة عند الفحص؛ تأكد من اللون والتوفر لدى البائع",
+    "case": "ستانلس ستيل حسب مواصفات البائع",
+    "movement": "كوارتز بثلاثة عقارب",
+    "water": "مقاومة الماء غير موضحة",
+    "description": "ساعة حريمي ذهبية بمينا بيضاء وسوار معدني. صفحة جوميا تذكر موديل Onlyou وبلد الصنع الصين، بينما تصنيف العلامة في القائمة Generic؛ لذلك لا نعرضها كساعة أصلية من ماركة عالمية.",
+    "colors": [
+      {
+        "name": "ذهبي بمينا بيضاء",
+        "hex": "#c6a35b"
+      }
+    ],
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/36/0481531/1.jpg?4724=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/36/0481531/2.jpg?4724=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/36/0481531/3.jpg?4724=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/36/0481531/4.jpg?4724="
+    ],
+    "galleryImages": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/36/0481531/1.jpg?4724=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/36/0481531/2.jpg?4724=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/36/0481531/3.jpg?4724=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/36/0481531/4.jpg?4724="
+    ]
+  },
+  {
+    "id": "women-rect-silver-270",
+    "brand": "Generic · موديل Onlyou حسب صفحة البائع",
+    "name": "فضي مستطيل — مينا بيضاء",
+    "category": "Women",
+    "tag": "نسائي · مستطيل",
+    "egp": 270,
+    "source": "Jumia Egypt",
+    "sourceUrl": "https://www.jumia.com.eg/generic-elegant-womens-silver-rectangular-watch-with-white-dial-and-crystal-markers-quartz-135182791.html",
+    "priceNote": "270 جنيه وقت الفحص — صفحة البائع أظهرت قطعة واحدة",
+    "availability": "المخزون كان قطعة واحدة عند الفحص؛ راجع صفحة البائع قبل الشراء",
+    "case": "ستانلس ستيل حسب مواصفات البائع",
+    "movement": "كوارتز",
+    "water": "مقاومة الماء غير موضحة",
+    "description": "ساعة فضية مستطيلة بمينا بيضاء ومؤشرات مرصعة، وسوار معدني متشابك. صفحة البائع تسمي الموديل Onlyou؛ العلامة مصنفة Generic في جوميا.",
+    "colors": [
+      {
+        "name": "فضي",
+        "hex": "#c4c7c9"
+      }
+    ],
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/19/7281531/1.jpg?4497=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/19/7281531/2.jpg?4497=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/19/7281531/3.jpg?4497=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/19/7281531/4.jpg?4497="
+    ],
+    "galleryImages": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/19/7281531/1.jpg?4497=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/19/7281531/2.jpg?4497=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/19/7281531/3.jpg?4497=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/19/7281531/4.jpg?4497="
+    ]
+  },
+  {
+    "id": "women-square-silver-270",
+    "brand": "Generic · موديل Onlyou حسب صفحة البائع",
+    "name": "فضي مربع — مينا بيضاء",
+    "category": "Women",
+    "tag": "نسائي · مربع",
+    "egp": 270,
+    "source": "Jumia Egypt",
+    "sourceUrl": "https://www.jumia.com.eg/generic-elegant-womens-silver-watch-with-white-square-dial-quartz-135184647.html",
+    "priceNote": "270 جنيه وقت الفحص — صفحة البائع أظهرت قطعة واحدة",
+    "availability": "المخزون كان قطعة واحدة عند الفحص؛ تأكد من التوفر لدى البائع",
+    "case": "ستانلس ستيل حسب مواصفات البائع",
+    "movement": "كوارتز بثلاثة عقارب",
+    "water": "مقاومة الماء غير موضحة",
+    "description": "ساعة فضية بمينا مربعة بيضاء وسوار معدني متشابك. موديل Onlyou وفق تفاصيل البائع، دون ادعاء أنها علامة عالمية أصلية.",
+    "colors": [
+      {
+        "name": "فضي بمينا بيضاء",
+        "hex": "#c5c8ca"
+      }
+    ],
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/74/6481531/1.jpg?4886=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/74/6481531/2.jpg?4886=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/74/6481531/3.jpg?4886=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/74/6481531/4.jpg?4886="
+    ],
+    "galleryImages": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/74/6481531/1.jpg?4886=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/74/6481531/2.jpg?4886=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/74/6481531/3.jpg?4886=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/74/6481531/4.jpg?4886="
+    ]
+  },
+  {
+    "id": "women-crystal-silver-270",
+    "brand": "Generic · موديل Onlyou حسب صفحة البائع",
+    "name": "فضي بإطار مرصع بالفصوص",
+    "category": "Women",
+    "tag": "نسائي · تفاصيل لامعة",
+    "egp": 270,
+    "source": "Jumia Egypt",
+    "sourceUrl": "https://www.jumia.com.eg/generic-womens-silver-tone-watch-with-white-dial-and-crystal-set-bezel-135183961.html",
+    "priceNote": "270 جنيه وقت الفحص — صفحة البائع أظهرت قطعة واحدة",
+    "availability": "المخزون كان قطعة واحدة عند الفحص؛ راجع صفحة البائع قبل الشراء",
+    "case": "ستانلس ستيل حسب مواصفات البائع",
+    "movement": "كوارتز بثلاثة عقارب",
+    "water": "مقاومة الماء غير موضحة",
+    "description": "ساعة فضية بمينا بيضاء وإطار مرصع بالفصوص وسوار معدني. صفحة البائع تسجل موديل Onlyou ضمن تصنيف Generic.",
+    "colors": [
+      {
+        "name": "فضي وفصوص",
+        "hex": "#c5c8ca"
+      }
+    ],
+    "images": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/16/9381531/1.jpg?4704=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/16/9381531/2.jpg?4704=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/16/9381531/3.jpg?4704=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/16/9381531/4.jpg?4704="
+    ],
+    "galleryImages": [
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/16/9381531/1.jpg?4704=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/16/9381531/2.jpg?4704=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/16/9381531/3.jpg?4704=",
+      "https://eg.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/16/9381531/4.jpg?4704="
+    ]
+  }
 ];
