@@ -152,3 +152,77 @@ body,button,input,select,textarea{font-family:'Cairo',Arial,sans-serif}
 .product-card:hover .product-visual img{transform:scale(1.045)}
 .checkout-btn:disabled{opacity:.55;cursor:not-allowed}
 @media(prefers-reduced-motion:reduce){.cinema-intro:after{animation:none}.product-card,.product-visual img{transition:none}}
+
+/* MOERIS 2026 — premium editorial finish */
+:root{--paper:#f7f5f0;--ink:#191815;--gold:#b99b67;--line:#e4dfd5}
+body{background:#f7f5f0}
+.announcement{height:34px;background:#171612;color:#e8dfcd;font-size:10px;letter-spacing:1.2px}
+.header{height:78px;background:rgba(247,245,240,.94);border-bottom-color:#ded8cc}
+.header nav a{font-size:11px;font-weight:600}
+.logo{font-size:30px;letter-spacing:6px}
+.cinema-intro{height:min(82vh,820px);min-height:520px;max-height:820px;background:#111}
+.cinema-video{opacity:.9;filter:brightness(.78) contrast(1.12) saturate(.7)}
+.cinema-shade{background:linear-gradient(90deg,#090908b8 0%,#0909084d 45%,#09090820 100%),linear-gradient(0deg,#090908b3 0%,transparent 55%)}
+.cinema-copy{right:10%;bottom:16%;max-width:760px}
+.cinema-copy>span{font-family:var(--sans);font-size:11px;letter-spacing:3px}
+.cinema-copy h2{font-family:var(--serif);font-weight:500;font-size:clamp(66px,10vw,138px);line-height:1.02;letter-spacing:-2px;margin:25px 0 35px}
+.cinema-copy h2 em{font-style:italic;font-weight:500;color:#dfc18b}
+.cinema-copy a{font-size:13px;padding-bottom:15px;letter-spacing:.3px}
+.cinema-caption{font-size:9px;letter-spacing:2.5px;direction:ltr}
+.hero{min-height:700px;padding-top:88px;padding-bottom:35px}
+.hero h1{font-size:clamp(64px,8vw,112px);line-height:1.1}
+.hero-text{font-size:15px;max-width:420px;line-height:2.15;color:#68645d}
+.eyebrow{font-size:10px;color:#947b51;letter-spacing:1.5px}
+.hero-art>img{border-radius:2px;filter:saturate(.78) contrast(1.02)}
+.section{padding-top:125px;padding-bottom:125px}
+.section h2,.newsletter h2,.manifesto h2{font-size:clamp(48px,5.5vw,76px)}
+.feature-card{background:#e8e4da}
+.feature-card img{filter:saturate(.72) contrast(1.03)}
+.feature-card div{left:32px;right:32px;bottom:30px}
+.feature-card h3{font-size:36px}
+.collection{padding-top:90px}
+.section-desc{font-size:13px;line-height:2.1}
+.product-grid{gap:48px 22px}
+.product-visual{height:310px;background:linear-gradient(145deg,#efede7,#e9e5dc)}
+.product-visual img{mix-blend-mode:multiply}
+.product-card{transition:transform .35s ease}
+.product-card:hover{transform:translateY(-6px)}
+.product-name{font-size:20px;font-weight:600}
+.product-brand{font-size:9px;letter-spacing:1px;color:#9a835c}
+.product-bottom>span:first-child{font-size:15px;font-weight:700;color:#24211b}
+.add-cart{border-color:#c6b38e;color:#705b37;font-size:12px;padding:13px 15px}
+.add-cart:hover{background:#1b1915}
+.manifesto{background:#eae7df}
+.manifesto-copy{padding:100px 13%}
+.manifesto-copy>p:not(.eyebrow){font-size:14px;line-height:2.2}
+.newsletter{background:#efede7}
+.newsletter>p:not(.eyebrow){font-size:13px;line-height:2}
+footer{background:#171612;color:#c9c2b4;padding:34px 7%}
+footer .logo{color:#f5f0e6}
+.modal-card{box-shadow:0 25px 100px #0003}
+.modal-info h2{font-size:42px}
+.modal-price{font-size:18px;font-weight:700}
+.modal-add-cart,.checkout-btn{font-family:var(--sans);letter-spacing:0}
+@media(max-width:900px){.cinema-intro{height:68vh;min-height:480px}.hero{min-height:600px}.product-visual{height:285px}}
+@media(max-width:620px){
+ .announcement{height:30px;font-size:8px}
+ .header{height:65px}.logo{font-size:23px;letter-spacing:4px}
+ .cinema-intro{height:72vh;min-height:480px;max-height:660px}
+ .cinema-video{object-position:58% center}
+ .cinema-shade{background:linear-gradient(0deg,#080807d9 0%,#08080745 75%,#08080722 100%)}
+ .cinema-copy{right:7%;left:7%;bottom:13%}
+ .cinema-copy h2{font-size:clamp(57px,15vw,82px);margin:18px 0 25px}
+ .cinema-copy>span{font-size:9px;letter-spacing:2px}
+ .cinema-caption{left:7%;bottom:5%;font-size:7px}
+ .hero{padding-top:55px;min-height:0}
+ .hero h1{font-size:62px}
+ .hero-text{font-size:13px}
+ .hero-art>img{height:330px}
+ .section{padding-top:75px;padding-bottom:75px}
+ .product-grid{gap:28px 12px}
+ .product-visual{height:220px}
+ .product-name{font-size:17px}
+ .feature-card h3{font-size:29px}
+ .manifesto-copy{padding:60px 8%}
+}
+@media(prefers-reduced-motion:reduce){.cinema-video{display:none}}
