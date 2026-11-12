@@ -98,3 +98,30 @@ body,button,input,select,textarea{font-family:'Cairo',Arial,sans-serif}
 .modal-add-cart:hover{background:#8f7651;transform:translateY(-2px)}
 .modal-add-cart span{font-size:19px}
 @media(max-width:620px){.card-swatches{gap:6px;margin:7px 0 10px}.card-swatches button{width:14px;height:14px}.gallery-caption{font-size:9px}.gallery-arrow{width:34px;height:34px}}
+
+/* MOERIS account drawer, seller links and product motion */
+.account-drawer{position:fixed;inset:0;z-index:120;visibility:hidden;pointer-events:none}
+.account-drawer.open{visibility:visible;pointer-events:auto}
+.account-backdrop{position:absolute;inset:0;background:#16130f88;opacity:0;transition:opacity .3s}
+.account-drawer.open .account-backdrop{opacity:1}
+.account-panel{position:absolute;top:0;right:0;height:100%;width:min(420px,100%);background:#fbfaf7;padding:64px 32px 30px;transform:translateX(105%);transition:transform .4s cubic-bezier(.2,.75,.2,1);overflow:auto;box-shadow:-20px 0 60px #00000012}
+.account-drawer.open .account-panel{transform:none}
+.account-close{position:absolute;top:17px;left:20px;border:0;background:none;font-size:30px;color:#4b463d;cursor:pointer}
+.account-panel h2{font:500 31px 'Playfair Display',serif;margin:10px 0 14px}
+.account-panel h2 em{color:#a58a5d}
+.account-intro{font-size:12px;line-height:2;color:#827b70;margin:0 0 26px}
+#accountForm{display:grid;gap:15px}
+#accountForm label{display:grid;gap:7px;font-size:11px;font-weight:700}
+#accountForm input{width:100%;border:1px solid #e1dbd0;background:#fff;padding:13px;font:inherit;font-size:12px;outline:0}
+#accountForm input:focus{border-color:#a98d5c;box-shadow:0 0 0 3px #b69a681c}
+.cart-buy-link{display:inline-block;color:#8d7248;font-size:10px;text-decoration:none;margin:2px 0 5px;border-bottom:1px solid #d8c6a5;padding-bottom:2px}
+.cart-buy-link:hover{color:#27231d;border-color:#27231d}
+.header-tools #accountBtn{display:grid;place-items:center}
+.product-card{transition:transform .45s cubic-bezier(.2,.7,.2,1),box-shadow .45s}
+.product-card:hover{transform:translateY(-7px);box-shadow:0 24px 48px #2d241412}
+.product-visual img{transition:transform .8s cubic-bezier(.2,.7,.2,1),filter .8s}
+.product-card:hover .product-visual img{transform:scale(1.045);filter:contrast(1.03)}
+.hero-art img{animation:heroWatchFloat 7s ease-in-out infinite;transform-origin:center}
+@keyframes heroWatchFloat{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-12px) rotate(1deg)}}
+@media(max-width:620px){.account-panel{padding:58px 22px 24px}.cart-item{grid-template-columns:58px minmax(0,1fr) auto}.product-card:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.hero-art img{animation:none}.product-card,.product-visual img{transition:none}}
