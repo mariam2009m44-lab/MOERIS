@@ -125,3 +125,5 @@ body,button,input,select,textarea{font-family:'Cairo',Arial,sans-serif}
 @keyframes heroWatchFloat{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-12px) rotate(1deg)}}
 @media(max-width:620px){.account-panel{padding:58px 22px 24px}.cart-item{grid-template-columns:58px minmax(0,1fr) auto}.product-card:hover{transform:none}}
 @media(prefers-reduced-motion:reduce){.hero-art img{animation:none}.product-card,.product-visual img{transition:none}}
+
+.product-source{display:block;color:#958a78;font-size:9px;letter-spacing:.15px;margin-top:5px}
