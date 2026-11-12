@@ -142,3 +142,13 @@ body,button,input,select,textarea{font-family:'Cairo',Arial,sans-serif}
 .cinema-intro+.hero{padding-top:100px}
 @media(max-width:620px){.cinema-intro{height:72vh;min-height:500px;max-height:680px}.cinema-copy{right:7%;bottom:17%;left:7%}.cinema-copy h2{font-size:57px}.cinema-caption{left:7%;bottom:7%;font-size:8px}.cinema-intro+.hero{padding-top:70px}}
 @media(prefers-reduced-motion:reduce){.cinema-video{display:none}}
+
+/* MOERIS finishing details */
+.cinema-intro:after{content:"";position:absolute;inset:-30% auto -30% -45%;width:42%;z-index:1;pointer-events:none;background:linear-gradient(105deg,transparent 0%,#ffffff0a 42%,#ffffff35 50%,#ffffff08 58%,transparent 100%);transform:skewX(-12deg);animation:moeris-light-sweep 8s ease-in-out infinite}
+@keyframes moeris-light-sweep{0%,22%{left:-48%;opacity:0}35%{opacity:1}65%,100%{left:125%;opacity:0}}
+.product-card{transition:transform .45s cubic-bezier(.2,.7,.2,1),box-shadow .45s}
+.product-card:hover{transform:translateY(-7px);box-shadow:0 22px 55px #24201812}
+.product-visual img{transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.product-card:hover .product-visual img{transform:scale(1.045)}
+.checkout-btn:disabled{opacity:.55;cursor:not-allowed}
+@media(prefers-reduced-motion:reduce){.cinema-intro:after{animation:none}.product-card,.product-visual img{transition:none}}
