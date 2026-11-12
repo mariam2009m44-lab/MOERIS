@@ -127,3 +127,18 @@ body,button,input,select,textarea{font-family:'Cairo',Arial,sans-serif}
 @media(prefers-reduced-motion:reduce){.hero-art img{animation:none}.product-card,.product-visual img{transition:none}}
 
 .product-source{display:block;color:#958a78;font-size:9px;letter-spacing:.15px;margin-top:5px}
+
+/* MOERIS cinematic opening — replace assets/moeris-intro.mp4 with the licensed brand video */
+.cinema-intro{position:relative;min-height:min(78vh,760px);height:680px;max-height:82vh;overflow:hidden;background:#171714;color:#fff;isolation:isolate}
+.cinema-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.78;filter:contrast(1.04) saturate(.78)}
+.cinema-shade{position:absolute;inset:0;background:linear-gradient(90deg,#0c0c0b9c 0%,#0c0c0b30 55%,#0c0c0b8c 100%),linear-gradient(0deg,#10100f99,transparent 52%);z-index:1}
+.cinema-copy{position:absolute;z-index:2;right:9%;bottom:14%;max-width:650px}
+.cinema-copy>span{font-size:11px;letter-spacing:4px;color:#d7c39b}
+.cinema-copy h2{font-size:clamp(54px,8vw,108px);line-height:1.15;margin:24px 0 30px;font-weight:800;letter-spacing:-2px}
+.cinema-copy h2 em{font-style:normal;color:#d6bd8d}
+.cinema-copy a{display:inline-flex;gap:24px;align-items:center;color:#fff;text-decoration:none;border-bottom:1px solid #d6bd8d;padding:0 0 12px;font-size:13px}
+.cinema-copy a b{color:#d6bd8d;font-size:20px}
+.cinema-caption{position:absolute;z-index:2;left:6%;bottom:8%;font-size:9px;letter-spacing:4px;color:#ffffffa8;direction:ltr}
+.cinema-intro+.hero{padding-top:100px}
+@media(max-width:620px){.cinema-intro{height:72vh;min-height:500px;max-height:680px}.cinema-copy{right:7%;bottom:17%;left:7%}.cinema-copy h2{font-size:57px}.cinema-caption{left:7%;bottom:7%;font-size:8px}.cinema-intro+.hero{padding-top:70px}}
+@media(prefers-reduced-motion:reduce){.cinema-video{display:none}}
