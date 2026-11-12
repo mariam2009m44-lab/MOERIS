@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#171612"><meta name="robots" content="noindex,nofollow">
+<title>MOERIS STUDIO — لوحة الإدارة</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/admin.css?v=1">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="index.html">MOERIS<span>®</span></a><div><small>PRIVATE WORKSPACE</small><b>MOERIS STUDIO</b></div><button id="logoutBtn" class="ghost" hidden>تسجيل الخروج</button></header>
+<main class="shell">
+<section id="setupNotice" class="notice" hidden><b>الإعداد الأول مطلوب</b><p>أضيفي إعدادات مشروع Firebase في الملف <code>js/firebase-config.js</code>، ثم استكملي خطوات الربط في ملف FIREBASE-SETUP.md داخل المستودع.</p></section>
+<section id="loginView" class="login-card">
+<p class="eyebrow">مساحة خاصة بإدارة البراند</p><h1>أهلًا بكِ في<br><em>MOERIS STUDIO.</em></h1>
+<p class="muted">سجّلي الدخول بحساب المالكة المعتمد لإدارة المنتجات والصور.</p>
+<form id="loginForm"><label>البريد الإلكتروني<input id="email" type="email" autocomplete="username" required placeholder="name@example.com"></label><label>كلمة المرور<input id="password" type="password" autocomplete="current-password" required placeholder="••••••••"></label><button class="primary" type="submit">دخول آمن <span>↙</span></button></form><p id="loginStatus" class="status" role="status"></p><a class="back-link" href="index.html">العودة إلى المتجر ↗</a>
+</section>
+<section id="dashboard" hidden>
+<div class="welcome"><div><p class="eyebrow">YOUR PRIVATE CONTROL ROOM</p><h1>إدارة <em>التشكيلة.</em></h1><p class="muted">أضيفي المنتجات وعدّلي تفاصيلها وصورها من الموبايل.</p></div><div class="stats"><div><b id="totalProducts">—</b><span>منتج</span></div><div><b id="activeProducts">—</b><span>متاح</span></div></div></div>
+<div class="workspace">
+<section class="editor panel"><div class="panel-heading"><div><small>CATALOG MANAGEMENT</small><h2 id="formHeading">إضافة ساعة جديدة</h2></div><span class="spark">✳</span></div>
+<form id="productForm">
+<input id="productId" type="hidden">
+<label>اسم الساعة<input id="name" maxlength="90" required placeholder="مثال: ساعة كلاسيكية بمينا سوداء"></label>
+<div class="two"><label>القسم<select id="category"><option value="Men">رجالي</option><option value="Women">نسائي</option><option value="Unisex">يونيسكس</option></select></label><label>السعر النهائي (جنيه)<input id="price" type="number" min="1" max="100000" required inputmode="numeric" placeholder="280"></label></div>
+<div class="two"><label>الكمية المتاحة<input id="stock" type="number" min="0" max="100000" value="1" inputmode="numeric"></label><label>شارة المنتج<input id="tag" maxlength="40" placeholder="وصل حديثًا"></label></div>
+<label>وصف الساعة<textarea id="description" rows="3" maxlength="600" placeholder="اكتبي وصفًا واضحًا ومختصرًا..."></textarea></label>
+<div class="two"><label>الخامة<input id="case" maxlength="100" placeholder="ستانلس ستيل"></label><label>نوع الحركة<input id="movement" maxlength="80" placeholder="كوارتز"></label></div>
+<label>مقاومة الماء<input id="water" maxlength="100" placeholder="غير موضحة من المورد"></label>
+<label class="upload">صور المنتج <span>اختاري صورة أو أكثر من معرض الموبايل</span><input id="photos" type="file" accept="image/*" multiple><small id="uploadHint">يفضل صور واضحة بإضاءة جيدة. الحد الأقصى 5 صور، 5MB للصورة.</small></label>
+<div id="imagePreview" class="preview-grid"></div>
+<label class="check"><input id="available" type="checkbox" checked> المنتج متاح للبيع</label>
+<div class="form-actions"><button class="primary" id="saveBtn" type="submit">حفظ المنتج <span>↙</span></button><button class="secondary" id="resetBtn" type="button">تفريغ الحقول</button></div><p id="formStatus" class="status" role="status"></p>
+</form></section>
+<section class="catalog panel"><div class="panel-heading"><div><small>LIVE CATALOG</small><h2>منتجات المتجر</h2></div><button class="refresh" id="refreshBtn" type="button">↻ تحديث</button></div><div id="productList" class="product-list"><p class="muted">جارٍ تحميل المنتجات…</p></div></section>
+</div>
+</section>
+</main>
+<footer>MOERIS STUDIO <span>PRIVATE · OWNER ACCESS ONLY</span></footer>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-storage-compat.js"></script>
+<script src="js/firebase-config.js?v=1"></script><script src="js/admin.js?v=1"></script>
+</body></html>
