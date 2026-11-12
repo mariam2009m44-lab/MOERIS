@@ -33,7 +33,21 @@ $("#favoritesBtn").addEventListener("click",()=>{filter="All";query="";$("#searc
 $("#menuBtn").addEventListener("click",()=>{const nav=document.querySelector(".header nav"),open=nav.classList.toggle("mobile-open");nav.style.display=open?"flex":""});
 document.querySelectorAll(".header nav a").forEach(a=>a.addEventListener("click",()=>{const n=document.querySelector(".header nav");n.classList.remove("mobile-open");n.style.display=""}));
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModal();closeCart();closeAccount()}});
-$("#orderForm").addEventListener("submit",e=>{e.preventDefault();$("#orderStatus").textContent="السعر المعروض هو سعر البيع النهائي لدى MOERIS. يلزم تفعيل استقبال الطلبات قبل إتمام الشراء.";toast("يلزم تفعيل استقبال الطلبات لإتمام الشراء")});
+
+function orderText(){
+ const items=cart.map(x=>{const p=window.MOERIS_PRODUCTS.find(z=>z.id===x.id);return p?{p,x}:null}).filter(Boolean);
+ if(!items.length)return "";
+ const lines=items.map(({p,x})=>"- "+p.name+" ("+(p.colors[x.colorIndex||0]?.name||"")+") × "+x.qty+" = "+money(p.egp*x.qty));
+ const total=items.reduce((s,{p,x})=>s+p.egp*x.qty,0);
+ return "طلب من MOERIS\\n"+lines.join("\\n")+"\\nالإجمالي: "+money(total);
+}
+$("#copyOrderBtn").addEventListener("click",async()=>{
+ const summary=orderText();if(!summary){toast("السلة فارغة");return}
+ try{await navigator.clipboard.writeText(summary);$("#orderStatus").textContent="تم نسخ تفاصيل طلبك. يمكنك مشاركتها مع فريق MOERIS عند تفعيل قناة التواصل.";toast("تم نسخ تفاصيل الطلب")}
+ catch(err){const t=document.createElement("textarea");t.value=summary;document.body.appendChild(t);t.select();const ok=document.execCommand("copy");t.remove();$("#orderStatus").textContent=ok?"تم نسخ تفاصيل طلبك.":"تعذر النسخ تلقائيًا. حاول مرة أخرى.";toast(ok?"تم نسخ تفاصيل الطلب":"تعذر النسخ")}
+});
+$("#orderForm").addEventListener("submit",e=>e.preventDefault());
+
 $("#newsletterForm").addEventListener("submit",async e=>{e.preventDefault();const email=$("#emailInput").value.trim(),status=$("#newsletterStatus"),endpoint=window.MOERIS_CONFIG?.newsletterEndpoint;if(!endpoint){status.textContent="خدمة الاشتراك غير مفعّلة حاليًا.";toast("خدمة الاشتراك غير مفعّلة");return}const btn=e.submitter;btn.disabled=true;btn.textContent="جارٍ الإرسال…";try{const r=await fetch(endpoint,{method:"POST",headers:{"Accept":"application/json","Content-Type":"application/json"},body:JSON.stringify({email,source:"MOERIS website",_subject:"مشترك جديد في MOERIS"})});if(!r.ok)throw new Error("failed");status.textContent="تم استلام طلب الاشتراك. شكرًا لك.";e.target.reset();toast("مرحبًا بك في MOERIS")}catch(err){status.textContent="تعذر إرسال البريد الآن. حاول مرة أخرى لاحقًا."}finally{btn.disabled=false;btn.textContent="اشتراك ↙"}});
 const accountDrawer=$("#accountDrawer"),profile=JSON.parse(localStorage.getItem("moeris-profile")||"{}");
 function closeAccount(){accountDrawer?.classList.remove("open");accountDrawer?.setAttribute("aria-hidden","true")}
